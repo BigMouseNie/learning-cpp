@@ -1,2 +1,2 @@
-# learn-cpp
+# learning-cpp
 my note for cpp
