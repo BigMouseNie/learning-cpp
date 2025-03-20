@@ -5,7 +5,10 @@
 #include <functional>
 #include <vector>
 
-
+/**
+ * 提供了两个pop函数，Pop在Cancal之后尽管生产队列中还有任务，也不会执行了
+ * _Pop在Cancal之后，会把所有队列的任务执行完毕
+ */
 template <typename T>
 class BlockingQueuePro
 {
